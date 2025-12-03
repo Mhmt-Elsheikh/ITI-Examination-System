@@ -1,7 +1,7 @@
 # 🎓 ITI Examination System & Academic Intelligence Platform
 ### ITI Graduation Project
 
-![Project Banner](https://img.shields.io/badge/Status-Completed-success) ![Tech](https://img.shields.io/badge/Stack-Full%20Stack%20BI-blue)
+![Project Banner](https://img.shields.io/badge/Status-Completed-success) ![Tech](https://img.shields.io/badge/Stack-Power%20BI%20Development-blue)
 
 ## 📌 Project Overview
 The **ITI Examination System** is a comprehensive, end-to-end educational ecosystem designed to manage the entire academic lifecycle at the Information Technology Institute (ITI).
