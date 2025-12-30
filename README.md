@@ -68,8 +68,7 @@ Using **SQL Server Reporting Services (SSRS)**, we developed pixel-perfect repor
 ## 3️⃣ Data Warehousing (OLAP)
 To enable high-performance analytics, we migrated data from the transactional system to a Data Warehouse designed with a **Galaxy Schema**.
 
-![Galaxy Schema Diagram](![0](https://github.com/user-attachments/assets/a8a7ed08-6d1e-4f85-8317-03b9b7755144)
-)
+![Galaxy Schema Diagram](https://github.com/user-attachments/assets/a8a7ed08-6d1e-4f85-8317-03b9b7755144)
 
 **Key Components:**
 * **Fact Tables:** `Fact_Exam`, `Fact_StudentAnswer`, `Fact_StudentResult`, `Fact_StudentFreelance` (Revenue tracking), `Fact_Hiring`.
@@ -81,8 +80,7 @@ To enable high-performance analytics, we migrated data from the transactional sy
 ## 4️⃣ Business Intelligence (Power BI)
 We created a massive interactive dashboard comprising over **20 pages** to provide 360-degree insights.
 
-![Power BI Home Dashboard](<img width="1433" height="800" alt="0" src="https://github.com/user-attachments/assets/5fd22063-13a2-4d45-8ff2-4de41ebed17c" />
-)
+![Power BI Home Dashboard](https://github.com/user-attachments/assets/5fd22063-13a2-4d45-8ff2-4de41ebed17c)
 
 ### 📊 Dashboard Modules:
 * **Student Overview:** Demographics, age distribution, and geographical analysis (Governorates).
