@@ -1,8 +1,7 @@
 # 🎓 ITI Examination System & Academic Intelligence Platform
 ### ITI Graduation Project | Business Intelligence Track
 
-![Project Banner](<img width="1390" height="777" alt="22" src="https://github.com/user-attachments/assets/2f086c80-b533-429f-9015-d2cac83368ca" />
-)
+![Project Banner](https://github.com/user-attachments/assets/2f086c80-b533-429f-9015-d2cac83368ca)
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Stack](https://img.shields.io/badge/Stack-SQL%20%7C%20PowerBI%20%7C%20SSRS%20%7C%20Web-blue)
