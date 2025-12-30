@@ -6,15 +6,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Stack](https://img.shields.io/badge/Stack-SQL%20%7C%20PowerBI%20%7C%20SSRS%20%7C%20Web-blue)
 
-## 👥 Team Members
-* **Mohamed Elsheikh** - Data Analyst | BI Developer
-* **Abdulrahman Yakout** - Data Analyst | BI Developer
-* **Ahmed Alwelaily** - Data Analyst | BI Developer
-* **Karim Nour** - Data Analyst | BI Developer
-* **Areej Rohyiem** - Data Analyst | BI Developer
-* **Ayman Helal** - Data Analyst | BI Developer
-
----
 
 ## 📖 Overview
 The **ITI Examination System** is a comprehensive digital solution designed to automate the academic lifecycle at the Information Technology Institute (ITI). The system ensures accuracy, efficiency, and scalability by covering the full data cycle—from Database Design and ETL processing to Interactive Dashboards.
@@ -113,4 +104,4 @@ This project successfully migrated a raw transactional system into a sophisticat
 * [ ] **Mobile Integration:** Developing a dedicated mobile app for students.
 
 ---
-*Built with ❤️ by the ITI BI Intake 44 Team*
+*Built with ❤️ by the ITI BI Team*
