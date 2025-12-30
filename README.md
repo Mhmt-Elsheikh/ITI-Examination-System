@@ -1,7 +1,8 @@
 # 🎓 ITI Examination System & Academic Intelligence Platform
 ### ITI Graduation Project | Business Intelligence Track
 
-![Project Banner](<img width="1390" height="777" alt="22" src="https://github.com/user-attachments/assets/2b2d38c5-0a03-41f0-bbf9-df94ac9d912e" />)
+![Project Banner](<img width="1390" height="777" alt="22" src="https://github.com/user-attachments/assets/2f086c80-b533-429f-9015-d2cac83368ca" />
+)
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Stack](https://img.shields.io/badge/Stack-SQL%20%7C%20PowerBI%20%7C%20SSRS%20%7C%20Web-blue)
@@ -68,7 +69,8 @@ Using **SQL Server Reporting Services (SSRS)**, we developed pixel-perfect repor
 ## 3️⃣ Data Warehousing (OLAP)
 To enable high-performance analytics, we migrated data from the transactional system to a Data Warehouse designed with a **Galaxy Schema**.
 
-![Galaxy Schema Diagram](![0](https://github.com/user-attachments/assets/0dc67b9a-9c17-4b9b-b5f5-dc55ac85c678))
+![Galaxy Schema Diagram](![0](https://github.com/user-attachments/assets/a8a7ed08-6d1e-4f85-8317-03b9b7755144)
+)
 
 **Key Components:**
 * **Fact Tables:** `Fact_Exam`, `Fact_StudentAnswer`, `Fact_StudentResult`, `Fact_StudentFreelance` (Revenue tracking), `Fact_Hiring`.
@@ -80,7 +82,8 @@ To enable high-performance analytics, we migrated data from the transactional sy
 ## 4️⃣ Business Intelligence (Power BI)
 We created a massive interactive dashboard comprising over **20 pages** to provide 360-degree insights.
 
-![Power BI Home Dashboard](<img width="1433" height="800" alt="0" src="https://github.com/user-attachments/assets/fe2f3ce2-698a-4132-9809-9f3a225e936c" />)
+![Power BI Home Dashboard](<img width="1433" height="800" alt="0" src="https://github.com/user-attachments/assets/5fd22063-13a2-4d45-8ff2-4de41ebed17c" />
+)
 
 ### 📊 Dashboard Modules:
 * **Student Overview:** Demographics, age distribution, and geographical analysis (Governorates).
