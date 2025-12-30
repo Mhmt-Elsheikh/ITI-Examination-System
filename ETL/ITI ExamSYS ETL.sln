@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ITI ExamSYS ETL", "ITI ExamSYS ETL.dtproj", "{9F64701F-7231-9BA2-B548-100B18740F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F64701F-7231-9BA2-B548-100B18740F78}.Development|Default.ActiveCfg = Development
+		{9F64701F-7231-9BA2-B548-100B18740F78}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BA614A9-1E8D-4602-878E-D530A321D960}
+	EndGlobalSection
+EndGlobal
