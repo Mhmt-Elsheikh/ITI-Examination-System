@@ -1,97 +1,116 @@
 # 🎓 ITI Examination System & Academic Intelligence Platform
-### ITI Graduation Project
+### ITI Graduation Project | Business Intelligence Track
 
-![Project Banner](https://img.shields.io/badge/Status-Completed-success) ![Tech](https://img.shields.io/badge/Stack-Power%20BI%20Development-blue)
+![Project Banner](<img width="1390" height="777" alt="22" src="https://github.com/user-attachments/assets/2b2d38c5-0a03-41f0-bbf9-df94ac9d912e" />)
 
-## 📌 Project Overview
-The **ITI Examination System** is a comprehensive, end-to-end educational ecosystem designed to manage the entire academic lifecycle at the Information Technology Institute (ITI).
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Stack](https://img.shields.io/badge/Stack-SQL%20%7C%20PowerBI%20%7C%20SSRS%20%7C%20Web-blue)
 
-This project goes beyond a simple web application; it is a full-scale **Data Engineering and Business Intelligence solution**. It starts from transactional data entry (OLTP), moves through complex data modeling and warehousing (OLAP), and culminates in advanced analytics and reporting.
-
-The system serves multiple stakeholders: **Admins, Training Managers, Instructors, and Students**, providing a seamless interface for exam creation, grading, and performance tracking.
-
----
-
-## 🏗️ System Architecture & Data Modeling
-
-This project demonstrates a complete data journey:
-
-### 1. Database Design (OLTP)
-* Designed a highly normalized **Entity Relationship Diagram (ERD)** to handle transactional operations efficiently.
-* Managed relationships between Entities: *Students, Courses, Instructors, Departments, Branches, and Intakes*.
-* Implemented constraints, triggers, and stored procedures to ensure data integrity during exam taking and grading.
-
-### 2. Data Warehousing (OLAP) - The Galaxy Schema
-To enable high-performance analytics, we transformed our transactional data into a Data Warehouse using a **Galaxy Schema (Fact Constellation)** architecture. This complex model includes:
-* **Multiple Fact Tables:**
-    * `Fact_Exam`: Tracking exam metadata and scheduling.
-    * `Fact_StudentAnswer`: Granular analysis of every answer by every student.
-    * `Fact_StudentResult`: Aggregated scores and pass/fail status.
-    * `Fact_Freelance`: Monitoring student freelance jobs and revenue (Unique Feature).
-    * `Fact_Hiring`: Tracking post-graduation employment.
-* **Shared Dimensions (Conformed Dimensions):**
-    * `Dim_Student`, `Dim_Course`, `Dim_Date`, `Dim_Instructor`, `Dim_Branch`.
+## 👥 Team Members
+* **Mohamed Elsheikh** - Data Analyst | BI Developer
+* **Abdulrahman Yakout** - Data Analyst | BI Developer
+* **Ahmed Alwelaily** - Data Analyst | BI Developer
+* **Karim Nour** - Data Analyst | BI Developer
+* **Areej Rohyiem** - Data Analyst | BI Developer
+* **Ayman Helal** - Data Analyst | BI Developer
 
 ---
 
-## 🚀 Key Features by Module
+## 📖 Overview
+The **ITI Examination System** is a comprehensive digital solution designed to automate the academic lifecycle at the Information Technology Institute (ITI). The system ensures accuracy, efficiency, and scalability by covering the full data cycle—from Database Design and ETL processing to Interactive Dashboards.
 
-### 👨‍💼 Administration & Management Module
-* **Track & Branch Management:** Full CRUD operations for ITI branches and tracks.
-* **Intake Management:** Handling student admission cycles.
-* **Instructor Assignment:** Linking instructors to specific courses and tracks.
-
-### 👨‍🏫 Instructor Module
-* **Question Bank:** Ability to add/edit questions (MCQ, True/False, Text) linked to specific topics.
-* **Exam Generation:** Automated or manual exam creation based on course criteria.
-* **Grading:** Automated grading system for objective questions.
-
-### 👨‍🎓 Student Module
-* **Exam Interface:** A secure environment to take exams online.
-* **Performance Tracking:** View grades and past exam history.
-* **Freelance Portal:** Students can log their freelance projects and earnings (for ROI analysis).
+**The solution serves four key pillars:**
+1.  **Academic Management:** Streamlining complex relationships between Students, Courses, and Instructors using a highly normalized Database Design.
+2.  **Assessment Automation:** Providing a secure environment for automated exam generation and result processing.
+3.  **Career Intelligence (Unique Feature):** Bridging the gap between education and employment by tracking Student Freelance Jobs and Hiring Data to measure the true ROI of education.
+4.  **Decision Support System:** Empowering management with a **Galaxy Schema Data Warehouse** to visualize Intake Growth, Exam Quality, and Educational ROI.
 
 ---
 
-## 📊 Business Intelligence & Analytics (Power BI & SSRS)
-
-We utilized **Microsoft Power BI** and **SQL Server Reporting Services (SSRS)** to derive actionable insights from the Data Warehouse.
-
-### 1. Advanced Power BI Dashboards (20+ Reports)
-We created over **20 interactive dashboards** covering:
-* **Academic Performance:** Analysis of student grades, pass rates, and failure rates per track/branch.
-* **Exam Quality:** Analyzing question difficulty and discrimination indices.
-* **Freelance ROI:** Tracking the revenue generated by students during their study (referencing `Fact_StudentFreelance`).
-* **Hiring Trends:** Post-graduation employment rates by department.
-
-**Key DAX Measures Implemented:**
-* `Student Pass Rate %`
-* `Average Freelance Cost by Job Category`
-* `Year-over-Year (YoY) Intake Growth`
-* `Dynamic Top N Students`
-
-### 2. SSRS Operational Reports
-Generated pixel-perfect reports for official documentation:
-* **Student Transcripts:** Detailed grade reports for each student.
-* **Certificate Generation:** Automated graduation certificates.
-* **Course Feedback Reports:** Aggregated student feedback per instructor.
+## 🛠️ Tools & Technologies
+The project utilizes a robust stack to handle data from creation to visualization:
+* **Database & Backend:** Microsoft SQL Server (2022), T-SQL.
+* **ETL & Warehousing:** SSIS, Galaxy Schema Modeling.
+* **Reporting & BI:** Power BI, SSRS (SQL Server Reporting Services).
+* **Web Application:** HTML5, CSS3, JavaScript, Visual Studio.
+* **Design & Planning:** Canva, Draw.io.
 
 ---
 
-## 🛠️ Tech Stack & Tools
-
-| Category | Tools Used |
-| :--- | :--- |
-| **Database** | SQL Server 2022, T-SQL |
-| **Data Modeling** | Galaxy Schema, Star Schema, ERD Design |
-| **ETL & Integration** | SSIS (SQL Server Integration Services) |
-| **Visualization** | Power BI, DAX, SSRS |
-| **Web Development** | C# .NET, HTML5, CSS3, JavaScript, Bootstrap |
-| **Version Control** | Git & GitHub |
+## 🔄 Project Workflow
+The technical framework of the project follows an end-to-end data engineering pipeline:
+1.  **Analysis & Modeling:** System Analysis $\rightarrow$ ERD $\rightarrow$ Mapping.
+2.  **DB Implementation:** Database Design $\rightarrow$ Data Generation $\rightarrow$ Stored Procedures.
+3.  **Data Warehousing:** Designing the Data Warehouse (OLAP).
+4.  **Presentation Layer:** Reports $\rightarrow$ Dashboards $\rightarrow$ Web Interface.
 
 ---
 
-## 📈 Impact & Results
-* **Centralized Data:** Unified data from 10+ branches into a single source of truth.
-* **Automated Workflow:** Reduced exam creation and grading time by **70%**.
-* **Data-Driven Decisions:** Enabled management to identify top-performing tracks and areas needing curriculum improvement based on student performance and market demand (Freelance data).
+## 1️⃣ Analysis & Modeling (OLTP)
+We started by designing a transactional database (OLTP) to handle the daily operations of the examination system.
+* **ERD:** A highly normalized schema handling complex relationships (Many-to-Many) between Students, Exams, Questions, and Instructors.
+* **Logic:** Implemented complex business logic using **Stored Procedures** and **Triggers** for:
+    * `CreateExam`: Automated randomization of questions.
+    * `StudentAnswer`: capturing student responses in real-time.
+    * `ProcessFinishedExams`: Automating grading and archiving.
+
+---
+
+## 2️⃣ Operational Reporting (SSRS)
+Using **SQL Server Reporting Services (SSRS)**, we developed pixel-perfect reports for official and operational use:
+* **Student Certificates:** Automated generation of graduation certificates.
+* **Exam Questions Report:** Reviewing question pools and difficulty levels.
+* **Instructor Workload:** Tracking teaching hours and assigned courses.
+* **Hiring & Freelance Reports:** Detailed lists of students hired or working as freelancers.
+
+---
+
+## 3️⃣ Data Warehousing (OLAP)
+To enable high-performance analytics, we migrated data from the transactional system to a Data Warehouse designed with a **Galaxy Schema**.
+
+![Galaxy Schema Diagram](![0](https://github.com/user-attachments/assets/0dc67b9a-9c17-4b9b-b5f5-dc55ac85c678))
+
+**Key Components:**
+* **Fact Tables:** `Fact_Exam`, `Fact_StudentAnswer`, `Fact_StudentResult`, `Fact_StudentFreelance` (Revenue tracking), `Fact_Hiring`.
+* **Conformed Dimensions:** `Dim_Student`, `Dim_Course`, `Dim_Branch`, `Dim_Instructor`, `Dim_Date`.
+* **ETL:** Extracting data from the SQL Engine, transforming it, and loading it into the Warehouse for analysis.
+
+---
+
+## 4️⃣ Business Intelligence (Power BI)
+We created a massive interactive dashboard comprising over **20 pages** to provide 360-degree insights.
+
+![Power BI Home Dashboard](<img width="1433" height="800" alt="0" src="https://github.com/user-attachments/assets/fe2f3ce2-698a-4132-9809-9f3a225e936c" />)
+
+### 📊 Dashboard Modules:
+* **Student Overview:** Demographics, age distribution, and geographical analysis (Governorates).
+* **Faculty & University Analysis:** Analyzing top-performing universities and faculties feeding into ITI.
+* **Hiring & Salary:** Tracking post-graduation employment rates, top hiring companies, and average salaries by job role.
+* **Freelance Intelligence (Unique):**
+    * Analysis of freelance jobs secured by students *during* the intake.
+    * Total Revenue generated ($34M+ simulated).
+    * Top freelance platforms (Upwork, Freelancer) and skills in demand.
+* **Certifications:** Tracking external certifications (Coursera, Udemy, etc.) earned by students.
+* **Exam & Track Performance:** Detailed pass rates, average scores, and "Highest/Lowest" performing tracks and courses.
+* **Instructor Analysis:** Correlation between instructor experience/salary and student performance.
+
+---
+
+## 5️⃣ Web Interface
+A web-based interface allows users to interact with the system based on their roles:
+* **Admin:** Manage branches, tracks, intakes, and student profiles (CRUD).
+* **Instructor:** Create exams, monitor schedules, and view course analytics.
+* **Student:** Take exams, view results, and log freelance/career achievements.
+
+---
+
+## 🚀 Conclusion & Future Roadmap
+This project successfully migrated a raw transactional system into a sophisticated decision-support engine.
+
+**Future Enhancements:**
+* [ ] **Predictive Analytics:** Using ML to predict student dropout rates and exam failure risks.
+* [ ] **Cloud Scalability:** Migrating the infrastructure to Microsoft Azure.
+* [ ] **Mobile Integration:** Developing a dedicated mobile app for students.
+
+---
+*Built with ❤️ by the ITI BI Intake 44 Team*
